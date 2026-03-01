@@ -69,7 +69,7 @@ make clean
 
 ---
 
-## Hardware (when available)
+## Hardware 
 
 | STM32F411 Pin | MPU-6050 Pin |
 |--------------|-------------|
@@ -99,7 +99,7 @@ make flash
 
 ---
 
-## Adding FreeRTOS (optional)
+## Adding FreeRTOS (optional- to be added in the final copy)
 
 1. Download [FreeRTOS](https://www.freertos.org/a00104.html)
 2. Copy `FreeRTOS/Source/` into the `RTOS/` folder
