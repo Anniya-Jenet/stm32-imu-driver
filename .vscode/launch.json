@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug STM32 (QEMU)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "qemu",
+            "cpu": "cortex-m4",
+            "executable": "${workspaceFolder}/build/stm32-imu-driver.elf",
+            "machine": "lm3s6965evb",
+            "swoConfig": { "enabled": false },
+            "runToEntryPoint": "main",
+            "gdbPath": "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gdb",
+            "showDevDebugOutput": "raw"
+        }
+    ]
+}
