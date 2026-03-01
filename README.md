@@ -1,7 +1,7 @@
 # STM32 IMU Driver
 
 Bare-metal I2C driver for the **MPU-6050** IMU on **STM32F411xE** (Blackpill).  
-No HAL. No CubeMX. Just C and registers.
+ONly using C and registers, NO HAL or CubeEX
 
 ---
 
